@@ -1,5 +1,18 @@
 # Test gitbook-plugin-prism
 
+## text
+~~~
+let initialBits: UInt8 = 0b00001111
+let invertedBits = ~initialBits // 等于 0b11110000
+~~~
+
+## sh
+~~~sh
+-o, --output <directory>  输出文件件, 默认为 ./_book
+-f, --format <name>       产生的书籍的类型, 默认为静态站点, 可用的格式为: site, page, ebook, json
+--config <config file>    配置文件, 默认为 book.js 或 book.json
+~~~
+
 ## Swift
 ~~~swift
 let individualScores = [75, 43, 103, 87, 12]
